@@ -1,0 +1,120 @@
+@media screen and (max-width: 550px) {
+  .logo {
+    font-size: 120px;
+    margin-bottom: 250px;
+  }
+}
+
+@media screen and (max-device-width: 500px) and (orientation: portrait) {
+  .logo {
+    font-size: 75px;
+    margin-bottom: 300px;
+    /* margin-bottom: 400px; */
+  }
+
+  .chat-box-container {
+    width: 100%;
+    min-width: none;
+    max-width: none;
+  }
+
+  .chat-text-container {
+    height: 80%;
+  }
+
+  .chat-log-container {
+    height: 70%;
+  }
+}
+
+@media screen and (max-device-width: 500px) and (orientation: landscape){
+  .logo {
+    font-size: 85px;
+    margin-bottom: 100px;
+  }
+
+  .home-form {
+    margin-top: 170px; 
+  }
+
+  .chat-box-container {
+    width: 30%;
+    min-width: none;
+    max-width: none;
+  }
+
+  .chat-log-container {
+    height: 55%;
+  }
+
+  
+  .chat-text-container {
+    height: 100%;
+  }
+
+  .chat-input-container {
+    height: 24%;
+  }
+}
+
+
+/* @supports (-webkit-touch-callout: none) {
+  .logo {
+    font-size: 85px;
+  }
+
+  .home-form {
+    margin-top: 220px; 
+  }
+
+  .chat-box-container {
+    width: 30%;
+    min-width: none;
+    max-width: none;
+  }
+
+  .chat-log-container {
+    height: 55%;
+  }
+
+  
+  .chat-text-container {
+    height: 100%;
+  }
+
+  .chat-input-container {
+    height: 24%;
+  }
+} */
+
+@supports (-webkit-touch-callout: none) {
+  .logo {
+    font-size: 85px;
+  }
+
+  .home-form {
+    margin-top: 300px; 
+  }
+
+  .chat-box-container {
+    min-width: none;
+    max-width: none;
+    width: 20%;
+  
+  }
+
+  .chat-log-container {
+    height: 60%;
+  }
+
+  
+  .chat-text-container {
+    height: 80%;
+  }
+
+  .chat-input-container {
+    height: 26%;
+  }
+}
+
+
